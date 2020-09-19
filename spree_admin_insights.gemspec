@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_admin_insights'
+  s.name        = 'spree-admin-insights'
   s.version     = '3.2.0.alpha'
   s.summary     = 'Add gem summary here'
   s.description = 'Add (optional) gem description here'
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  spree_version = '>= 3.1.0', '< 4.0.0'
+  spree_version = '>= 3.7.0', '< 5.0'
 
   s.add_dependency 'spree_core', spree_version
   s.add_dependency 'spree_extension'
